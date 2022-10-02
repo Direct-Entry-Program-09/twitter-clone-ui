@@ -38,7 +38,7 @@ header{
 #header-wrapper{
     position: fixed;
     width: 275px;
-    background-color: red;
+    background-color: white;
     height: 100%;
     
 }
@@ -79,6 +79,7 @@ header{
     flex-direction: column;
     height: 100%;
 }
+
 #div-3{
     width: 251px;
     height: 423.5px;
@@ -92,11 +93,18 @@ header{
     flex-direction: row;
     
 }
+#space{
+    height: 400px;
+    width: 275px;
+}
 #div-4-1{
     flex-direction: row;
     justify-content: left;
     width:40px;
     height: 40px;
+    
+   
+
 }
 #div-4-2{
     justify-content: center;
@@ -109,11 +117,65 @@ header{
     height: 18.75px;
 
 }
-#nav .nav{
+#nav-1 .nav{
     width: 251px;
     height: 50.25px;
+    justify-content: space-around;
 }
-#div-btn{
+#nav-1 svg{
+    height: 2rem;
+    fill: black;
+    color: black;
+}
+#nav-1 div{
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    padding: 12px;
+   
+}
+#nav-1 div span{
+    vertical-align:middle;
+    text-decoration: none;
+    color: black;
+   font-size: 20px;
+   font-family: TwitterChirp;
+    bottom: 10px;
+    left: 20px;
+    position: relative;
+ 
+    
+  
+    
+}
+#div-btn-tweet{
     width: 251px;
     height: 423.5px;
+   
+    color: white;
+    font-family: TwitterChirp;
+    font-size: 17px;
+}
+#div-btn-tweet div{
+    background-color:rgb(29, 155, 240);
+    border-radius: 50px;
+    width: 225.89;
+    height: 52px;
+    margin: 4px 0;
+    display: flex;
+   
+   
+
+}
+#div-btn-tweet div a{
+  color: white;
+  margin-top: auto;
+  margin-left: auto;
+  margin-bottom: auto;
+  margin-right: auto;
+}
+#div-middle #nav-1 .n:hover{
+    background-color: lightgrey;
+    border-radius: 30px;
+    
 }
